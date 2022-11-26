@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplicationCoreWebApi</name>
+    </assembly>
+    <members>
+        <member name="M:WebApplicationCoreWebApi.Controllers.BooksHandlingController.Post(WebApplicationCoreWebApi.Models.RequestModels.BookModel)">
+            <summary>
+            Save new book in DB.
+            </summary>
+            <returns>HttpStatusCode.Ok</returns>
+            <exception cref="F:System.Net.HttpStatusCode.InternalServerError"></exception>
+        </member>
+        <member name="M:WebApplicationCoreWebApi.Controllers.BooksHandlingController.Get">
+            <summary>
+            Gets the list of all Books.
+            </summary>
+        </member>
+        <member name="M:WebApplicationCoreWebApi.Controllers.BooksHandlingController.GetById(System.Guid)">
+            <summary>
+            Gets the list of all Books.
+            </summary>
+        </member>
+    </members>
+</doc>
